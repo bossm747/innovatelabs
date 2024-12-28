@@ -1,6 +1,6 @@
-# Groq App Generator
+# InnovateLabs
 
-An interactive web application that generates and modifies web applications using Groq's LLM API. Built with Next.js and TypeScript.
+An interactive web application that generates and modifies web applications using InnovateLabs' API. Built with Next.js and TypeScript.
 
 ## Features
 
@@ -14,14 +14,14 @@ An interactive web application that generates and modifies web applications usin
 
 - Next.js 14 (App Router)
 - TypeScript
-- Groq SDK
+- InnovateLabs SDK
 - React Syntax Highlighter
 - UUID for session management
 
 ## Environment Variables
 
 Required environment variables:
-- `GROQ_API_KEY`: Your Groq API key
+- `INNOVATELABS_API_KEY`: Your InnovateLabs API key
 
 ## Getting Started
 
