@@ -71,8 +71,7 @@ export function PromptInput() {
 							e.preventDefault();
 							const newIndex = feedbackHistoryIndex - 1;
 							if (newIndex >= -1) {
-								setFeedbackHistoryIndex(newIndex);
-								setCurrentFeedback(newIndex === -1 ? "" : feedbackHistory[newIndex]);
+								setFeedbackHistoryIndex(newIndex === -1 ? "" : feedbackHistory[newIndex]);
 							}
 						}
 					}
