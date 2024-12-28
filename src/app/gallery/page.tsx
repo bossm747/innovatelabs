@@ -15,7 +15,7 @@ export default function GalleryPage() {
 				<Link href="/" className="w-10 h-10 flex items-center justify-center">
 					<ArrowLeft size={20} />
 				</Link>
-				<h1 className="font-montserrat text-[2em] font-light">Gallery</h1>
+				<h1 className="font-montserrat text-[2em] font-light">InnovateLabs Gallery</h1>
 			</div>
 
 			<div className="mb-8 flex justify-center">
