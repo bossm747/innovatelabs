@@ -12,14 +12,14 @@ export default function AppLogo({ className, size = 80 }: { className?: string; 
 	}, []);
 
 	// Avoid hydration mismatch by using a default theme before mounting
-	const logoSrc = !mounted ? "/groqlabs_logo-black.png" : 
-		(resolvedTheme === "dark" ? "/groqlabs_logo-white.png" : "/groqlabs_logo-black.png");
+	const logoSrc = !mounted ? "/innovatelabs_logo-black.png" : 
+		(resolvedTheme === "dark" ? "/innovatelabs_logo-white.png" : "/innovatelabs_logo-black.png");
 
 	return (
 		<div className={cn("flex flex-col items-center gap-2", className)}>
 			<Image 
 				src={logoSrc} 
-				alt="Groq" 
+				alt="InnovateLabs" 
 				width={size} 
 				height={size}
 				style={{ width: 'auto', height: size/3.41333333333 }}
